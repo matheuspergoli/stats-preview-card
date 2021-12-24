@@ -111,10 +111,6 @@ body {
 }
 
 @media (max-width: 840px) {
-    body {
-        padding: 35px;
-    }
-
     .main-content {
         flex-direction: column-reverse;
         justify-content: flex-end;
