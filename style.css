@@ -111,12 +111,15 @@ body {
 }
 
 @media (max-width: 840px) {
+    body {
+        padding: 35px;
+    }
+
     .main-content {
         flex-direction: column-reverse;
         justify-content: flex-end;
         width: 300px;
         height: 800px;
-        margin: 40px;
     }
 
     .content-section_first {
